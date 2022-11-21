@@ -10,14 +10,20 @@
                 
             </div>
         </nav>
-        <div class="d-flex flex-column text-align-center">
-            <H1 class="text-center text-white fw-bold">Untold Stories</H1>
+        <div class=" container d-flex flex-column">
+            <H1 class="text-white fw-bold">Untold Stories</H1>
             <p class="text-white">There is un untold Story behind Every song</p>
-            <button>Latest Album</button>
-            <button>New Dates</button>
+            <div class="d-flex flex-wrap justify-content-center"><button>Latest Album</button>
+            <button>New Dates</button></div>
         </div>
+        
+
 
     </header>
+    <div class="text-center bg-black">
+        <h3>Music is life</h3>
+        <p class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti expedita non officia et, ex ad eius inventore est nostrum natus quaerat, reiciendis nobis, odit at ipsum fuga alias accusantium sit?</p>
+    </div>
 </template>
 
 <script>
@@ -54,9 +60,12 @@ header {
 button {
     width: 60px;
     border-radius: 5px;
-    color: red;
+    background-color: #ec4958;
     display: flex;
-    flex-direction:row;
+    border: none;
+
+    margin: 5px;
+    color: white;
 }
 
 </style>

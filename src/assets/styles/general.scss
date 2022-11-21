@@ -16,6 +16,8 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #252a33;
+    color: white;
     
 }
 // 
@@ -24,9 +26,8 @@ a {
     color: $blacktext;
 }
 .container{
-    max-width: 100%;
+    max-width: 1170px;
     margin:0 auto;
     
-    background-color: #252a33;
-    color: white;
+    
 }

@@ -2,19 +2,20 @@
     <header>
         <nav class="navbar">
             <div class="container-fluid d-flex">
-                <a class="navbar-brand d-flex justify-content-between text-white"  href="#">
+                <div class="navbar-brand d-flex justify-content-between text-white"  href="#">
                 <img src="../assets/img/avada-music-logo-mobile-retina.png" alt="" width="30" height="24" >
                 AVADA MUSIC
-                </a>
-                <p class="d-flex justify-content-between"><i class="fa-solid fa-bars"></i></p>
+                </div>
+                <p class="d-flex justify-content-between"><i class="fa-solid fa-bars "></i></p>
                 
             </div>
         </nav>
         <div class=" container d-flex flex-column">
             <H1 class="text-white fw-bold">Untold Stories</H1>
             <p class="text-white">There is un untold Story behind Every song</p>
-            <div class="d-flex flex-wrap justify-content-center"><button>Latest Album</button>
-            <button>New Dates</button></div>
+            <div class="d-flex flex-wrap justify-content-center"><a class="btn btn-primary text-center">Album</a>
+            <a class="btn btn-primary text-center">Live</a>
+            </div>
         </div>
         
 
@@ -57,7 +58,7 @@ header {
     
     
 }
-button {
+a {
     width: 60px;
     border-radius: 5px;
     background-color: #ec4958;

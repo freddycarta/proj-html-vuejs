@@ -41,7 +41,7 @@ footer {
         // .footer-links {
         //     flex-basis: calc(100% / 3);
         
-        // }
+        // // }
 
         ul {
             list-style: none;

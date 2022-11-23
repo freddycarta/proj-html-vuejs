@@ -5,12 +5,12 @@
                 <div class="navbar-brand d-flex justify-content-between text-white"  href="#">
                 <img src="../assets/img/logo_footer.png" alt="" >
                 </div>
-                <nav class="navbar navbar-light">
+                <nav class="navbar">
     <div class="container-fluid">
       <button class="navbar-toggler ms-auto text-white" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
         aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars p-2"></i>
       </button>
     </div>
   </nav>
@@ -36,9 +36,9 @@
 
     </header>
 
-    <div class="text-center">
+    <div class="container text-center">
         <h1>Music is life</h1>
-        <p class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti expedita non officia et, ex ad eius inventore est nostrum natus quaerat, reiciendis nobis, odit at ipsum fuga alias accusantium sit?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti expedita non officia et, ex ad eius inventore est nostrum natus quaerat, reiciendis nobis, odit at ipsum fuga alias accusantium sit?</p>
         <hr>
     </div>
     
@@ -60,8 +60,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@use '../assets/styles/partials/mixins' as *;
-@use '../assets/styles/partials/variables' as *;
 
 header {
     text-align: center;

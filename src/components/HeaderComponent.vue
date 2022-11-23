@@ -3,18 +3,17 @@
         <nav class="navbar">
             <div class="container-fluid d-flex">
                 <div class="navbar-brand d-flex justify-content-between text-white"  href="#">
-                <img src="../assets/img/avada-music-logo-mobile-retina.png" alt="" width="30" height="24" >
-                AVADA MUSIC
+                <img src="../assets/img/logo_footer.png" alt="" >
                 </div>
-                <p class="d-flex justify-content-between"><i class="fa-solid fa-bars "></i></p>
+                <p class="d-flex justify-content-between display-6"><i class="fa-solid fa-bars"></i></p>
                 
             </div>
         </nav>
         <div class=" container d-flex flex-column">
-            <H1 class="text-white fw-bold">Untold Stories</H1>
+            <H1 class="text-white fw-bold display-1">Untold Stories</H1>
             <p class="text-white">There is un untold Story behind Every song</p>
-            <div class="d-flex flex-wrap justify-content-center"><a class="btn btn-primary text-center">Album</a>
-            <a class="btn btn-primary text-center">Live</a>
+            <div class="d-flex flex-wrap justify-content-center"><a class="btn btn-primary text-center ">Last Album</a>
+            <a class="btn btn-primary text-center">Live Dates</a>
             </div>
         </div>
         
@@ -22,7 +21,7 @@
 
     </header>
     <div class="text-center bg-black">
-        <h3>Music is life</h3>
+        <h1>Music is life</h1>
         <p class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti expedita non officia et, ex ad eius inventore est nostrum natus quaerat, reiciendis nobis, odit at ipsum fuga alias accusantium sit?</p>
     </div>
 </template>
@@ -59,14 +58,21 @@ header {
     
 }
 a {
-    width: 60px;
+    width: auto;
     border-radius: 5px;
     background-color: #ec4958;
-    display: flex;
     border: none;
-
+    transition-duration: 0.4s;
     margin: 5px;
     color: white;
+    font-size: larger;
+}
+
+
+
+.a.i:hover:hover {
+  background-color: #af6f4c;
+  color: white;
 }
 
 </style>

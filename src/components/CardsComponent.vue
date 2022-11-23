@@ -9,7 +9,7 @@
                 <div class="card">
                 <img src="../assets/img/blog_music_techo-200x100.jpg" class="card-img-top " alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Technology and Music</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 </div>
@@ -18,7 +18,7 @@
                 <div class="card">
                 <img src="../assets/img/blog_music_techo-200x100.jpg" class="card-img-top " alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">While my guitar gently wheeps</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 </div>
@@ -27,7 +27,7 @@
                 <div class="card">
                 <img src="../assets/img/blog_flavor_rock-200x100.jpg" class="card-img-top " alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Taking it back to the old school</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="card">
                 <img src="../assets/img/blog_music_techo-200x100.jpg" class="card-img-top " alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">The Flavor of rock</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 </div>
@@ -61,13 +61,10 @@ export default {
 
 <style lang="scss" scoped>
 
-// .card {
-//     height:15vh ;
-// }
-
-img {
-    
+.card {
+    color: black;
 }
+
 
  
 

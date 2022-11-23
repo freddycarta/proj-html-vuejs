@@ -90,4 +90,16 @@ a {
   color: white;
 }
 
+.navbar {
+position: fixed;
+  top:0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
 </style>

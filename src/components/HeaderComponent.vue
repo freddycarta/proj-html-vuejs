@@ -5,7 +5,22 @@
                 <div class="navbar-brand d-flex justify-content-between text-white"  href="#">
                 <img src="../assets/img/logo_footer.png" alt="" >
                 </div>
-                <p class="d-flex justify-content-between display-6"><i class="fa-solid fa-bars"></i></p>
+                <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler ms-auto text-white" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  <div class="collapse" id="navbarToggleExternalContent3">
+    <div class="bg-light  p-4">
+      <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+      <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+      <button class="btn btn-link btn-block m-0">Link 3</button>
+    </div>
+  </div>
                 
             </div>
         </nav>
@@ -20,26 +35,26 @@
 
 
     </header>
-    <div class="text-center bg-black">
+
+    <div class="text-center">
         <h1>Music is life</h1>
         <p class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti expedita non officia et, ex ad eius inventore est nostrum natus quaerat, reiciendis nobis, odit at ipsum fuga alias accusantium sit?</p>
+        <hr>
     </div>
+    
 </template>
 
 <script>
-import { links } from '../data/products.js'
+
 export default {
     name: 'HeaderComponent',
     data() {
         return {
-            image: '../assets/img/la-molisana-logo.png', //non funziona se non con metodo
-            navbar: links
+         
         }
     },
     methods: {
-        //     getImageURL: function (imgPath) {
-        //         return new URL(imgPath, import.meta.url).href;
-        //     }
+
     }
 }
 </script>
